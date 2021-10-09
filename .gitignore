@@ -14,7 +14,8 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+*.ilk
+*.pdb
 
 # Fortran module files
 *.mod
@@ -24,9 +25,13 @@
 *.lai
 *.la
 *.a
-*.lib
+
 
 # Executables
 *.exe
 *.out
 *.app
+/1_basic_code/1_basic_code/Debug/1_basic_code.tlog
+/1_basic_code/.vs/1_basic_code/v16/ipch/AutoPCH/17b62d02cae50934/1_BASIC_CODE.ipch
+/.vs/peakit04/v16/.suo
+/1_basic_code/.vs/1_basic_code/v16
