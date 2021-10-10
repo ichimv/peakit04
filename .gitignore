@@ -42,3 +42,5 @@
 /Vulkan_basic_code/2_create_instance/Debug
 /Vulkan_basic_code/2_create_instance/x64/Debug
 /Vulkan_basic_code/3_validate_layers/Debug
+/Vulkan_basic_code/4_select_physical_device/Debug
+/Vulkan_basic_code/5_create_logical_device/Debug
