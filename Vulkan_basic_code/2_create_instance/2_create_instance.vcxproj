@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7b961b9f-c16a-4729-bfb8-7fa5885aab96}</ProjectGuid>
-    <RootNamespace>My1basiccode</RootNamespace>
+    <ProjectGuid>{35cda0b7-0a19-4dca-9116-60214c2c8b35}</ProjectGuid>
+    <RootNamespace>My2createinstance</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -72,23 +72,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>..\..\_external\glfw-3.3.4\include\;..\..\_external\;d:\VulkanSDK\1.2.189.2\Include\;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\VulkanSDK\1.2.189.2\Lib32;..\..\_external\glfw-3.3.4\lib-vc2019\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\..\_external\glfw-3.3.4\include;..\..\_external\;d:\VulkanSDK\1.2.189.2\Include\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\_external\glfw-3.3.4\lib-vc2019\;D:\VulkanSDK\1.2.189.2\Lib32;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>..\..\_external\glfw-3.3.4\include\;..\..\_external\;d:\VulkanSDK\1.2.189.2\Include\;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\VulkanSDK\1.2.189.2\Lib32;..\..\_external\glfw-3.3.4\lib-vc2019\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\..\_external\glfw-3.3.4\include;..\..\_external\;d:\VulkanSDK\1.2.189.2\Include\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\_external\glfw-3.3.4\lib-vc2019\;D:\VulkanSDK\1.2.189.2\Lib32;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\..\_external\glfw-3.3.4\include\;..\..\_external\;d:\VulkanSDK\1.2.189.2\Include\;$(IncludePath)</IncludePath>
     <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);..\..\_external\glfw-3.3.4\lib-vc2019\;D:\VulkanSDK\1.2.189.2\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\..\_external\glfw-3.3.4\include\;..\..\_external\;d:\VulkanSDK\1.2.189.2\Include\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\..\_external\glfw-3.3.4\include\;..\..\_external\;d:\VulkanSDK\1.2.189.2\Include\;$(IncludePath)</IncludePath>
     <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);..\..\_external\glfw-3.3.4\lib-vc2019\;D:\VulkanSDK\1.2.189.2\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\..\_external\glfw-3.3.4\include\;..\..\_external\;d:\VulkanSDK\1.2.189.2\Include\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -151,7 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1_basic_code.cpp" />
+    <ClCompile Include="2_create_instance.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
