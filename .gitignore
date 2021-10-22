@@ -44,3 +44,14 @@
 /Vulkan_basic_code/3_validate_layers/Debug
 /Vulkan_basic_code/4_select_physical_device/Debug
 /Vulkan_basic_code/5_create_logical_device/Debug
+/Vulkan_basic_code/8_create_image_views/Debug
+/Vulkan_basic_code/9_create_graphics_pipeline/Debug
+/Vulkan_basic_code/10_create_renderpass/Debug
+/Vulkan_basic_code/11_create_framebuffers/Debug
+/Vulkan_basic_code/12_create_command_buffers/Debug
+/Vulkan_basic_code/13_draw_first_triangle/Debug
+/Vulkan_basic_code/14_create_vertex_buffer/Debug
+/Vulkan_basic_code/15_create_index_buffer/Debug
+/Vulkan_basic_code/6_create_window_surface/Debug
+/Vulkan_basic_code/7_create_swapchain/Debug
+/Vulkan_basic_code/16_desenare_clepsidra/Debug
