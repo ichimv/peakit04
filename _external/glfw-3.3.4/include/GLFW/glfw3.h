@@ -29,6 +29,8 @@
 #ifndef _glfw3_h_
 #define _glfw3_h_
 
+#pragma comment (lib, "glfw3.lib")
+
 #ifdef __cplusplus
 extern "C" {
 #endif
